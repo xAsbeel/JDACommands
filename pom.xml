@@ -14,9 +14,13 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
-  <repositories>
-
-  </repositories>
+  <distributionManagement>
+    <repository>
+      <id>minecodes-repository-releases</id>
+      <name>mineCodes Organization Repository</name>
+      <url>https://repository.minecodes.pl/releases</url>
+    </repository>
+  </distributionManagement>
 
   <!-- Dependency will be provided in runtime -->
   <dependencies>
