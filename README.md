@@ -17,7 +17,7 @@ In order to use this library you must also include JDA in your build.
 
   <dependencies>
     <dependency>
-      <groupId>ovh.nikox</groupId>
+      <groupId>ovh.nikox.jdacommands</groupId>
       <artifactId>JDACommands</artifactId>
       <version>1.0.0</version>
     </dependency>
@@ -39,7 +39,7 @@ repositories {
 }
 
 dependencies {
-  implementation("ovh.nikox:JDACommands:1.0.0")
+  implementation("ovh.nikox.jdacommands:JDACommands:1.0.0")
   implementation("net.dv8tion:JDA:VERSION")
 }
 ```
